@@ -77,13 +77,66 @@ body {
   color: white;
   cursor: pointer;
 }
+.avatar-nav {
+  height: 100%;
+}
+.avatar-nav a {
+  display: inline-block;
+  margin-top: 0.7rem;
+}
+.avatar-nav img {
+  max-width: 35px;
+  border-radius: 100%;
+}
 .common-box {
   border: 1px solid rgba(0,0,0,0.125);
   border-radius: 0.25rem;
   background: white;
 }
 .aside-left .user-info {
-  height: 20rem;
+  height: 30rem;
+}
+.aside-left .user-info .up {
+  height: 12rem;
+  background: #1e3948;
+}
+.aside-left .user-info .sub {
+  box-sizing: border-box;
+  height: 18rem;
+  padding: 1.25rem;
+  text-align: center;
+}
+.aside-left .user-info .sub img {
+  max-width: 100px;
+  margin-top: -70px;
+  margin-bottom: 5px;
+  border-radius: 100%;
+  border: 3px solid white;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1)
+}
+.aside-left .user-info .sub h6 {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+.aside-left .user-info .sub p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+.aside-left .user-info .sub ul {
+  list-style: none;
+}
+.aside-left .user-info .sub ul li {
+  display: inline-block;
+  font-weight: bold;
+  text-align: center;
+  padding: 0 1rem;
+}
+.aside-left .user-info .sub ul li:first-child {
+  border-right: 1px solid rgba(0,0,0,0.125);
+}
+.aside-left .user-info .sub ul li p {
+  margin-bottom: 0;
+  font-weight: 400;
 }
 .section .main {
   list-style: none;
